@@ -1,4 +1,4 @@
-import { Container, Form } from "./styles";
+import { Background, Container, Form } from "./styles";
 
 
 import { FiLock, FiMail } from 'react-icons/fi'
@@ -13,10 +13,10 @@ export function SingIn() {
     return(
         <Container>
             
-            
+              <Background/>
             <Form>
 
-              <h1> Faça seu Login </h1>
+              <h1> Login </h1>
 
                 <Input 
                     placeholder ="Login"
