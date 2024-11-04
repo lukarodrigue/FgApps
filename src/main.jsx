@@ -7,6 +7,7 @@ import { Home } from './pages/Home/index'
 
 import theme from './styles/theme';
 import GlobalStyles from './styles/global';
+import { ColumLeft } from './components/Calendar';
 
 
 createRoot(document.getElementById('root')).render(
@@ -15,7 +16,7 @@ createRoot(document.getElementById('root')).render(
       <ThemeProvider theme={ theme }>
     
         <Home />
-    
+        <ColumLeft />
         <GlobalStyles />
     
       </ThemeProvider>

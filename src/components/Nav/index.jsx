@@ -7,7 +7,7 @@ export function Nav() {
     <Container>
       <select>
         <option value="Home">Home</option>
-        <option value="">Visitar Site</option>
+        <option value="Visitar">Visitar Site</option>
       </select>
 
       <button type="submit" href="#">Furgão Peugeot</button>
@@ -18,7 +18,7 @@ export function Nav() {
       <form method="post" class="j_geraRelatorio">
         <label>Gerar Relatório:</label>
         
-        <input type="date" name="dataInicial" value="2024-11-01" required=""/>
+        <input type="date" name="dataInicial"  required=""/>
         
         <input type="date" name="dataFinal" required=""/>
         
